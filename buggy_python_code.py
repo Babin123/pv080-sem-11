@@ -25,7 +25,7 @@ class RunBinSh(object):
 
 # function description
 def import_urlib_version(version):
-    if len(version > 5):
+    if len(version)>5:
         return
     exec("import urllib%s as urllib" % version)
 
